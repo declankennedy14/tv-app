@@ -51,6 +51,29 @@ export class TvApp extends LitElement {
       .listing{
         margin: 10px;
       }
+      .slideclicker {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        gap: 375px;
+        margin-bottom: 20px;
+      }
+      .previous-slide {
+        font-size: 20px;
+        background-color: #eeeeee;
+        width: 200px;
+        height: 50px;
+        padding-top: 22px;
+      }
+      .next-slide {
+        font-size: 20px;
+        background-color: #eeeeee;
+        width: 200px;
+        height: 50px;
+        padding-top: 22px;
+
+      }
+
       `
     ];
   }
@@ -60,10 +83,10 @@ export class TvApp extends LitElement {
     <div class="grid-container">
       <div class="grid-item">
         <div class="left-item">
-          <video-player source="https://www.youtube.com/watch?v=LrS7dqokTLE" accent-color="orange" dark track="https://haxtheweb.org/files/HAXshort.vtt"></video-player> 
+          <video-player source="https://www.youtube.com/watch?v=xWcldHxHFpo&ab_channel=MrBeast" accent-color="orange" dark track="https://haxtheweb.org/files/HAXshort.vtt"></video-player> 
         </div>  
-        <tv-channel title="HAX: Wordpress Killer" presenter="Bryan Ollendyke">
-          TV Metada placeholder
+        <tv-channel title="MrBeast Youtube" presenter="MrBeast">
+          I counted to 100,000!
         </tv-channel>
       </div>
       <div class="right-item">
@@ -84,9 +107,13 @@ export class TvApp extends LitElement {
       </div>
         <!-- dialog -->
         <sl-dialog label="Dialog" class="dialog">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Count Number 
         <sl-button slot="footer" variant="primary" @click="${this.closeDialog}">Close</sl-button>
         </sl-dialog>
+    </div>
+    <div class="slideclicker">
+      <div class = "previous-slide"> Previous Slide</div>
+      <div class = "next-slide"> Next Slide</div>
     </div>
     `;
   }
