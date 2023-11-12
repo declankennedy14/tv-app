@@ -16,31 +16,12 @@
       background-color: white;
       color: black;
     }
-    .container {
-      display: flex;
-      flex-direction: row;
-    }
-    .video {
-      background-color: #eeeeee;
-      margin-top: 80px;
-      margin-left: 30px;
-      width: 1000px;
-      height: 500px;
-    }
-    .discord {
-      background-color: #eeeeee;
-      margin-top: 80px;
-      width: 400px;
-      height: 500px;
-      float: right;
-      margin-right: 50px;
-    }
-    tv-channel {
-      display: flex;
-      margin-left: 30px;
-      margin-top: 25px;
-      margin-bottom: 30px;
-      width: 400px;
+  
+    tv-app {
+      display: grid;
+      gap: 10px;
+      margin-left: 200px;
+      width: 1550px
     }
   </style>
   <title>tv-station</title>
@@ -48,16 +29,14 @@
 </head>
 
 <body>
-  <tv-app name="HAX:TV"></tv-app>
-  <div class="discord"> 
-    <h3>Discord Placeholder</h3>
-  </div>
-  <div class="video"> 
-    <h3>Video Placeholder</h3>
-  </div>
-  <tv-channel title="HAX: Wordpress Killer" presenter="Bryan Ollendyke">
-    TV Metada placeholder
-  </tv-channel>
+  <tv-app>
+    <!-- <div class="video"> 
+      <h3>Video Placeholder</h3>
+    </div>
+    <tv-channel title="HAX: Wordpress Killer" presenter="Bryan Ollendyke">
+      TV Metada placeholder
+    </tv-channel> -->
+  </tv-app>
   <script type="module">
     import "./src/tv-app.js";
     import "./src/tv-channel.js";

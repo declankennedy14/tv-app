@@ -18,18 +18,16 @@ export class TvChannel extends LitElement {
     return {
       title: { type: String },
       video: { type: String },
-      presenter: { type: String },
+      presenter: { type: String }
     };
   }
   // LitElement convention for applying styles JUST to our element
   static get styles() {
     return css`
       :host {
-        display: inline-flex;
       }
       .wrapper {
-        display: inline-block;
-        padding: 16px;
+        padding: 13px;
         background-color: #eeeeee;
       }
     `;
