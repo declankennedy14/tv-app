@@ -83,17 +83,17 @@ export class TvApp extends LitElement {
     <div class="grid-container">
       <div class="grid-item">
         <div class="left-item">
-          <video-player source="https://www.youtube.com/watch?v=xWcldHxHFpo&ab_channel=MrBeast" accent-color="orange" dark track="https://haxtheweb.org/files/HAXshort.vtt"></video-player> 
+          <video-player source="https://www.youtube.com/watch?v=X4U5EZH9Czk&ab_channel=Crazy5s" accent-color="red" dark track="https://haxtheweb.org/files/HAXshort.vtt"></video-player> 
         </div>  
-        <tv-channel title="MrBeast Youtube" presenter="MrBeast">
-          I counted to 100,000!
+        <tv-channel title="@Crazy5s" presenter="Crazy 5s">
+          Top 5 Greatest Goals of All Time | NHL
         </tv-channel>
       </div>
       <div class="right-item">
       <h2>${this.name}</h2>
       ${
         this.listings.map(
-          (item) => html`
+          (item, index) => html`
             <tv-channel 
               title="${item.title}"
               presenter="${item.metadata.author}"
@@ -106,10 +106,10 @@ export class TvApp extends LitElement {
       }
       </div>
         <!-- dialog -->
-        <sl-dialog label="Dialog" class="dialog">
+        <!-- <sl-dialog label="Dialog" class="dialog">
           Count Number 
         <sl-button slot="footer" variant="primary" @click="${this.closeDialog}">Close</sl-button>
-        </sl-dialog>
+        </sl-dialog> -->
     </div>
     <div class="slideclicker">
       <div class = "previous-slide"> Previous Slide</div>
