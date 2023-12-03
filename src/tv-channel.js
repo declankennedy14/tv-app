@@ -18,7 +18,8 @@ export class TvChannel extends LitElement {
     return {
       title: { type: String },
       video: { type: String },
-      presenter: { type: String }
+      presenter: { type: String },
+      timecode: { type: Number }
     };
   }
   // LitElement convention for applying styles JUST to our element
@@ -27,8 +28,12 @@ export class TvChannel extends LitElement {
       :host {
       }
       .wrapper {
-        padding: 13px;
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
         background-color: #eeeeee;
+        margin-top: 12px;
       }
     `;
   }
