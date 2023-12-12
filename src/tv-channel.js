@@ -8,6 +8,7 @@ export class TvChannel extends LitElement {
     this.title = '';
     this.video = '';
     this.presenter = '';
+    this.image = '';
   }
   // convention I enjoy using to define the tag's name
   static get tag() {
@@ -19,28 +20,59 @@ export class TvChannel extends LitElement {
       title: { type: String },
       video: { type: String },
       presenter: { type: String },
-      timecode: { type: Number }
+      timecode: { type: Number },
+      image: { type: String },
+      index: { type: Number },
+      active: { type: Boolean , reflect: true }
     };
   }
-  // LitElement convention for applying styles JUST to our element
   static get styles() {
     return css`
+      :host([active]) {
+        background-color: #c76363ec
+      }
       :host {
+        display: block;
+        padding: 10px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        background-color: #EEEE;
+        border-radius: 8px;
+        transition: background-color ease;
       }
       .wrapper {
-        padding-top: 5px;
+        padding-top: 30px;
         padding-left: 5px;
         padding-right: 5px;
-        padding-bottom: 5px;
-        background-color: #eeeeee;
-        margin-top: 12px;
+        padding-bottom: 30px;
+        background-color: #EEEE;
+        background-size: cover;
+        border-radius: 8px;
+      }
+      @media screen and (max-width: 800px) {
+        :host {
+          display: block;
+          padding: 10px;
+          margin-top: 0px;
+          margin-bottom: 8px;
+          background-color: #EEEE;
+          border-radius: 8px;
+          transition: background-color ease;
+      }
+        .wrapper {
+        padding-top: 0px;
+        padding-bottom: 10px;
+        padding-right: 5px;
+        background-color: #EEEE;
+        background-size: cover;
+        border-radius: 8px;
+      }
       }
     `;
   }
-  // LitElement rendering template of your element
   render() {
     return html`
-      <div class="wrapper">
+      <div class="wrapper" style="background-image:url(${this.image});">
         <h3>${this.title}</h3>
         <h3>${this.video}</h3>
         <h4>${this.presenter}</h4>
@@ -49,5 +81,4 @@ export class TvChannel extends LitElement {
       `;
   }
 }
-// tell the browser about our tag and class it should run when it sees it
 customElements.define(TvChannel.tag, TvChannel);

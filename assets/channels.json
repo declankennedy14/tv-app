@@ -2,9 +2,9 @@
   "status": 200,
   "data": {
     "id": "123-123-123-123",
-    "title": "Count to 100,000",
-    "author": "MrBeast",
-    "description": "The live count to the number 100,000 in one video.",
+    "title": "Top Ten Greatest Hockey Players",
+    "author": "WatchMojo",
+    "description": "10 Greatest Hockey Players",
     "license": "by-sa",
     "metadata": {},
     "items": [
@@ -14,12 +14,11 @@
         "order": 0,
         "parent": null,
         "title": "Number 10",
-        "description": "Phil Esposito",
+        "description": "Player #10: Phil Esposito",
         "metadata": {
           "source": "https://www.youtube.com/watch?v=ORLzURr2q-Q&ab_channel=WatchMojo.com",
           "timecode": 38,
-          "created": 1697033522,
-          "updated": 1697034021
+          "image": "https://cdn.discordapp.com/attachments/966339836522954762/1181648991885213769/number10.png?ex=6581d361&is=656f5e61&hm=813b0331e50b345a6b83d982eae0cd640bfe698f6557a4a04e8a771907a16d9b&"
         }
       },
       {
@@ -28,12 +27,11 @@
         "order": 0,
         "parent": null,
         "title": "Number 9",
-        "description": "Mark Messier",
+        "description": "Player #9: Mark Messier",
         "metadata": {
           "source": "https://www.youtube.com/watch?v=ORLzURr2q-Q&ab_channel=WatchMojo.com",
           "timecode": 87,
-          "created": 1697033522,
-          "updated": 1697034021
+          "image": "https://cdn.discordapp.com/attachments/966339836522954762/1181718789872681090/Number9.png?ex=65821462&is=656f9f62&hm=264e1a76ccb8ebfc4da667eb8f0d0888efc1e4581a16a69411f0b6a784d22d56&"
         }
       },
       {
@@ -42,12 +40,11 @@
         "order": 0,
         "parent": null,
         "title": "Number 8",
-        "description": "Jaromir Jagr",
+        "description": "Player #8: Jaromir Jagr",
         "metadata": {
           "source": "https://www.youtube.com/watch?v=ORLzURr2q-Q&ab_channel=WatchMojo.com",
           "timecode": 137,
-          "created": 1697033522,
-          "updated": 1697034021
+          "image": "https://cdn.discordapp.com/attachments/966339836522954762/1181658182091812935/Number8.png?ex=6581dbf0&is=656f66f0&hm=9199e11a543b5e9ce806456bb1a4eb3d349ef6f79f1fa91141fb0005f3935999&"
         }
       },
       {
@@ -56,12 +53,11 @@
         "order": 0,
         "parent": null,
         "title": "Number 7",
-        "description": "Sydney Crosby",
+        "description": "Player #7: Sydney Crosby",
         "metadata": {
           "source": "https://www.youtube.com/watch?v=ORLzURr2q-Q&ab_channel=WatchMojo.com",
           "timecode": 185,
-          "created": 1697033522,
-          "updated": 1697034021
+          "image": "https://cdn.discordapp.com/attachments/966339836522954762/1181658867994730496/number7.png?ex=6581dc94&is=656f6794&hm=2324330651c90b7e8db78fdac0d14c55e77990f5cfced45ee075dea851ff58f5&"
         }
       },
       {
@@ -70,12 +66,11 @@
         "order": 0,
         "parent": null,
         "title": "Number 6",
-        "description": "Patrick Roy",
+        "description": "Player #6: Patrick Roy",
         "metadata": {
           "source": "https://www.youtube.com/watch?v=ORLzURr2q-Q&ab_channel=WatchMojo.com",
           "timecode": 237,
-          "created": 1697033522,
-          "updated": 1697034021
+          "image": "https://cdn.discordapp.com/attachments/966339836522954762/1181717514837840072/Number6.png?ex=65821332&is=656f9e32&hm=ea231224a9771ce6af7d04150754bc361e513bea61333c92afc49e460ea8213e&"
         }
         
       },
@@ -85,12 +80,11 @@
         "order": 0,
         "parent": null,
         "title": "Number 5",
-        "description": "Maurice Richard",
+        "description": "Player #5: Maurice Richard",
         "metadata": {
           "source": "https://www.youtube.com/watch?v=ORLzURr2q-Q&ab_channel=WatchMojo.com",
           "timecode": 295,
-          "created": 1697033522,
-          "updated": 1697034021
+          "image": "https://cdn.discordapp.com/attachments/966339836522954762/1181717535662559342/Number5.png?ex=65821337&is=656f9e37&hm=cae7aa083381eb4fe37e3002b1281c69c6f2b05e4769c2c57a04c227579b6959&"
         }
       },
       {
@@ -99,12 +93,11 @@
         "order": 0,
         "parent": null,
         "title": "Number 4",
-        "description": "Patrick Roy",
+        "description": "Player #4: Mario Lemieux",
         "metadata": {
-          "source": "https://www.youtube.com/watch?v=ORLzURr2q-Q&ab_channel=WatchMojo.com",
-          "timecode": 237,
-          "created": 1697033522,
-          "updated": 1697034021
+          "source": "",
+          "timecode": 339,
+          "image": "https://cdn.discordapp.com/attachments/966339836522954762/1181717558236291234/Number4.png?ex=6582133d&is=656f9e3d&hm=3b01fdf05bdddf9b6b058f20f740142a7dc186b04d7740e9706ca16b96563445&"
         }
       },
       {
@@ -113,12 +106,11 @@
         "order": 0,
         "parent": null,
         "title": "Number 3",
-        "description": "Gordie Howe",
+        "description": "Player #3: Gordie Howe",
         "metadata": {
           "source": "https://www.youtube.com/watch?v=ORLzURr2q-Q&ab_channel=WatchMojo.com",
           "timecode": 395,
-          "created": 1697033522,
-          "updated": 1697034021
+          "image": "https://cdn.discordapp.com/attachments/966339836522954762/1181717576993218600/Number3.png?ex=65821341&is=656f9e41&hm=174a05f9042f49920f89c266d6d2afb558d00ec82c103e3bfde5ead01b41529f&"
         }
       },
       {
@@ -127,12 +119,11 @@
         "order": 0,
         "parent": null,
         "title": "Number 2",
-        "description": "Bobby Ore",
+        "description": "Player #2: Bobby Ore",
         "metadata": {
           "source": "https://www.youtube.com/watch?v=ORLzURr2q-Q&ab_channel=WatchMojo.com",
           "timecode": 453,
-          "created": 1697033522,
-          "updated": 1697034021
+          "image": "https://cdn.discordapp.com/attachments/966339836522954762/1181717594735116360/Number_2.png?ex=65821345&is=656f9e45&hm=1f3f68992929f2ed2ad7cd062d82072072beead5afcd37ad37cfcb22536a8044&"
         }
       },
       {
@@ -141,12 +132,11 @@
         "order": 0,
         "parent": null,
         "title": "Number 1",
-        "description": "Wayne Gretsky",
+        "description": "The Greatest of All-Time: Wayne Gretsky",
         "metadata": {
           "source": "https://www.youtube.com/watch?v=ORLzURr2q-Q&ab_channel=WatchMojo.com",
           "timecode": 521,
-          "created": 1697033522,
-          "updated": 1697034021
+          "image": "https://cdn.discordapp.com/attachments/966339836522954762/1181717619175342170/Number_1.png?ex=6582134b&is=656f9e4b&hm=a6d909e5c0544cb7a8815676df593c0ccf9a12eec190287b53dba742e6206604&"
         }
       }
 
