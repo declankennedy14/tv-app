@@ -5,6 +5,8 @@ export class TvChannel extends LitElement {
   // defaults
   constructor() {
     super();
+    this.timecode = 0;
+    this.index = 0;
     this.title = '';
     this.video = '';
     this.presenter = '';
@@ -22,7 +24,7 @@ export class TvChannel extends LitElement {
       presenter: { type: String },
       timecode: { type: Number },
       image: { type: String },
-      index: { type: Number },
+      index: { type: Number, reflect: true },
       active: { type: Boolean , reflect: true }
     };
   }
